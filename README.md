@@ -115,7 +115,7 @@ E como foi dito anteriormente, o cliente pode fazer duas operações, "Ver saldo
 
 ## Problemas a serem corrigidos:
 
-Boa parte das exceções de codigo foi corrigida, mas ainda existe algumas, como por exemplo: Se durante qualquer um dos cadastros for deixado um espaço em branco, o programa irá crashar, e se estiver sendo executado numa IDE, será retornado um `NumberFormatException`.
+Boa parte das exceções de codigo foi corrigida, mas ainda existe algumas ~~como por exemplo: Se durante qualquer um dos cadastros for deixado um espaço em branco, o programa irá crashar, e se estiver sendo executado numa IDE, será retornado um `NumberFormatException`.~~
 
 Em algumas partes do programa, o `cancelar` ou o `não` não ira retornar ao menu anterior, porém nenhum deles ficará em loop.
 
