@@ -84,7 +84,7 @@ E com isso, se o numero do cliente existir, ele irá para o menu do caixa, indic
 - Sacar
 
     ![image](./assets/areaDoCaixaSacar.png)
-    ![image](./assets/areaDoCaixaSacarConfirmacao.png.png)
+    ![image](./assets/areaDoCaixaSacarConfirmacao.png)
 
 - Transfererir
 
