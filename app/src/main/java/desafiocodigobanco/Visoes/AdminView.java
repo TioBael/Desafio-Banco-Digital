@@ -27,6 +27,8 @@ public class AdminView {
                 } catch (CadastroCanceladoException e) {
                     JOptionPane.showMessageDialog(null, "Não existe gerente, é necessario cadastra ao menos um!",
                             "Cadastro de gerente", JOptionPane.ERROR_MESSAGE);
+                } catch (NumberFormatException ex){
+                    JOptionPane.showMessageDialog(null, "Campo invalido!", "Cadastro de gerente", JOptionPane.ERROR_MESSAGE);
                 }
                 if(exit == Boolean.TRUE)
                     break;
@@ -57,6 +59,8 @@ public class AdminView {
                                     "Cadastro de conta", JOptionPane.YES_NO_OPTION);
                             if (option == JOptionPane.YES_OPTION)
                                 break;
+                        } catch (NumberFormatException ex){
+                            JOptionPane.showMessageDialog(null, "Campo invalido!", "Cadastro de conta", JOptionPane.ERROR_MESSAGE);
                         }
                     }
                     break;
@@ -71,6 +75,8 @@ public class AdminView {
                                     "Cadastro de caixa", JOptionPane.YES_NO_OPTION);
                             if (option == JOptionPane.YES_OPTION)
                                 break;
+                        }  catch (NumberFormatException ex){
+                            JOptionPane.showMessageDialog(null, "Campo invalido!", "Cadastro de caixa", JOptionPane.ERROR_MESSAGE);
                         }
                     }
                     break;
@@ -85,6 +91,8 @@ public class AdminView {
                                     "Cadastro de gerente", JOptionPane.YES_NO_OPTION);
                             if (option == JOptionPane.YES_OPTION)
                                 break;
+                        }  catch (NumberFormatException ex){
+                            JOptionPane.showMessageDialog(null, "Campo invalido!", "Cadastro de gerente", JOptionPane.ERROR_MESSAGE);
                         }
                     }
                     break;
